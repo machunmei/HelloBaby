@@ -1,0 +1,25 @@
+ .basic-info {
+  background-color: white;
+  padding: 5 10;
+  margin: 10;
+}
+
+.basic-info .title {
+  font-weight: bold;
+  color: darkgray;
+  text-align: left;
+}
+
+.basic-info .info {
+  font-weight: bold;
+  color: #399;
+  text-align: right;
+}
+
+.current-preg-days {
+  margin: 10px;
+  font-weight: bold;
+  font-size: 20;
+  color: #E091A2;
+}
+
