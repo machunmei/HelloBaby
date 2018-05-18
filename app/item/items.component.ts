@@ -17,6 +17,17 @@ export class ItemsComponent implements OnInit {
     constructor(private bioService: BioService) { }
 
     ngOnInit(): void {
+       
+    }
+
+    onButtonTap() {
+        console.log('get');
+        this.bioService.getUser();
+    }
+
+    insertUser() {
+        console.log('insert');
+        this.bioService.createTable();
         this.bioService.insertUser();
     }
 }

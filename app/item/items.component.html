@@ -25,14 +25,17 @@ class names available for styling your app at https://docs.nativescript.org/ui/t
 -->
 <StackLayout class="page" orientation="vertical">
     <Image src="res://baby1" width="80"></Image>
-    <Label text="孕22周+4天" class="current-preg-days"></Label>
+    <Label text="孕28周+4天" class="current-preg-days"></Label>
     <GridLayout class="basic-info" columns="80, *, auto" rows="*,*,*" height="100" width="300">
         <Label row="0" col="0" text="预产期" class="title" ></Label>
         <Label row="0" col="2" text="2018-08-08" class="info" ></Label>
         <Label row="1" col="0" text="孕前体重" class="title"  ></Label>
         <Label row="1" col="2" text="46.5kg" class="info"></Label>
         <Label row="2" col="0" text="身高" class="title" ></Label>
-        <Label row="2" col="2" text="153.5cm" class="info"></Label>
+        <Label row="2" col="2" text="152.5cm" class="info"></Label>
     </GridLayout>
+
+    <Button text="Insert" (tap)="insertUser()"></Button>
+    <Button text="Get" (tap)="onButtonTap()"></Button>
     
 </StackLayout>
